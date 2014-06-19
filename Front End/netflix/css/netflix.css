@@ -1,0 +1,73 @@
+
+#middle
+{
+	background-color: blue;
+    height:400px;
+    width:400px;
+    position:relative;
+}
+
+#banner {
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: ;
+	z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:48px;
+    font-family:helvetica;
+    font-weight:normal;
+    left:10px;
+    top:350px;
+} 
+
+#image
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+#text
+{
+
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:48px;
+    font-family:helvetica;
+    font-weight:normal;
+    left:10px;
+    top:350px;
+}
+
+#nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: red;
+	height: 35px;
+	text-align: left;
+	padding-top: 15px;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	
+}
+
+#nav a {
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+#nav a:hover {
+color: grey;
+} 
+
+.netflix {
+	size:58px;
+}
+p { }

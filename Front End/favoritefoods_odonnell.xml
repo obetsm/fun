@@ -1,0 +1,14 @@
+<foodListing title="Favorite Foods"> 
+  <food> 
+    <name>pineapple</name> 
+    <descriptionwhy>Pineapple is good with anything and tastes like you are on vacation.</descriptionwhy> 
+     </food> 
+  <food> 
+    <name>Lime Jello</name> 
+    <descriptionwhy>Lime Jello is bright green and fun to play with.</descriptionwhy> 
+  </food> 
+  <food> 
+    <name>Cereal</name> 
+    <descriptionwhy>Cereal is good any time of day and good enough to eat the whole box. </descriptionwhy> 
+  </food> 
+ </foodListing> 

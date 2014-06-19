@@ -1,0 +1,5 @@
+/* import the css we want to use */
+
+@import './global.css';
+@import './specific.css';
+@import './responsive.css';

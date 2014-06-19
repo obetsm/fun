@@ -1,0 +1,21 @@
+
+body, html{
+	background:#000000;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:18px;
+	
+	background: url('../img/paper-bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a, a:visited{ 
+	text-decoration:none; 
+	color:#000;
+}

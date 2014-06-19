@@ -1,0 +1,37 @@
+/* background */
+
+body background {
+	background-repeat: no-repeat;
+}
+
+/* header */
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:25px;
+	list-style-position: center;
+	color: black;
+	}
+
+li
+	{
+	display:inline;
+	float:left;
+	}
+
+a
+	{
+	display:block;
+	width:60px;
+	}
+
+/* calendar */
+
+.boxed {
+	background-color: #FFF;
+	width: 250px;
+	height: 250px;
+	float: right
+}
+ 

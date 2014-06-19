@@ -1,0 +1,21 @@
+@media( max-width:500px ){
+
+	#main-header{
+		margin:0px;
+		margin-top: 20px;
+	}
+	
+	#main-header ul li{
+		font-size:17px;
+		margin-left:3px; 
+		margin-right:3px;
+	}
+	
+	#content h1{
+		-webkit-transform: rotate(-10deg) scale(0.5);
+	}
+	
+	#content .content-block{
+		-webkit-transform: translateX(-65px);
+	}
+}

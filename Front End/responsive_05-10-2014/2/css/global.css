@@ -1,0 +1,58 @@
+
+body {
+	text-align:center;
+	font-family:'roboto', sans-serif
+}
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*parallax layers*/
+
+#parallax-layers{
+
+}
+
+.p-item {
+	position:absolute;
+}
+
+
+/*body text*/
+
+#p {
+	color:#ffffdf;
+    padding:40px 40px;
+    display:block;
+    position:relative;
+}
+
+.content-block{
+	
+	text-align: center;
+	background:transparent;
+    height:250px; width:300px;
+    position:relative;
+    top:140px; 
+    left:770px;
+    line-height:1.4em;
+    text-shadow: 3px 3px #000;
+    
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        
+        <title>NIKE: Responsive</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="./css/reset.css"><!-- remove the css presets from the browser -->
+        <link rel="stylesheet" href="./css/global.css"><!-- global css -->
+        <link rel="stylesheet" href="./css/specific.css"><!-- specific things tied to an ID -->
+		<link rel="stylesheet" href="./css/intro-animation.css"><!-- intro animation -->
+        <link rel="stylesheet" href="./css/responsive.css"><!-- overrides to make things work in mobile experiences -->
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+
+		<div id="bg">
+			<img src="img/asphalt.png" alt="">
+		</div>
+		
+		<header id="main-header">
+			<ul>
+				<li><a href="#">WHO?</a></li>
+				<li><a href="#">WHAT?</a></li>
+				<li><a href="#">WHEN?</a></li>
+				<li><a href="#">WHERE?</a></li>
+				<li><a href="#">WHY?</a></li>
+			</ul>
+		</header>
+		
+		<section id="page">
+			
+			<div id="parallax-layers">
+			
+				
+				
+				<img id="pl5" class="p-item" src="./img/parallax-assets/layer5.png" alt="layer5" data-offset-position="-200,-120" />
+				<img id="pl4" class="p-item" src="./img/parallax-assets/layer4.png" alt="layer4" data-offset-position="0,0" />
+				<img id="pl3" class="p-item" src="./img/parallax-assets/layer3.png" alt="layer3" data-offset-position="-420,-140" />
+				<img id="pl2" class="p-item" src="./img/parallax-assets/layer2.png" alt="layer2" data-offset-position="150,250" />
+				<img id="pl1" class="p-item" src="./img/parallax-assets/layer1.png" alt="layer1" data-offset-position="-180,250" />
+				<img id="pl6" class="p-item" src="./img/parallax-assets/responsive.png" alt="layer6"data-offset-position="-180,250" />
+				
+			</div>
+
+			<article id="content" class="p-item noscale" data-offset-position="180,-50" style="z-index:0">
+					<h1>RESPONSIVE?</h1>
+					<div class="content-block">
+						<p id="p">Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).</p>
+					</div>
+				</article>
+				
+			
+		</section>
+		
+		<footer id="main-footer">
+			<img src="./img/nike-logo.png" alt="logo" />
+		</footer>
+		
+        <script src="./js/vendor/jquery-1.11.0.min.js"></script>
+        <script src="./js/scripts.js"></script>
+        <script src="./js/parallax.js"></script>
+        
+		<!-- ** live.js is ONLY for development so that you can see your browser update as you save the file(s). This must be removed when moving the site to a live environment ** -->
+        <script src="./js/vendor/live.js"></script>
+        <!-- **** -->
+        
+	</body>
+</html>

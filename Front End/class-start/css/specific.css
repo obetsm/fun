@@ -1,0 +1,127 @@
+#logo{
+	display:inline-block;
+	content:"~";
+}
+
+#logo:before {
+	background-color:#rgba(255, 255, 255,0.1);
+}
+
+#logo .d{
+	font-family:'Bangers';
+	color:#abffcd;
+	font-size:32px;
+
+}
+
+#logo.d:before{
+
+	display:inline-block;
+	content:"~";
+	padding:0px;
+	width:20px;
+	position:absolute;
+	top:-8px;
+	left:-13px;
+	font-family:'open sans';
+	color:#abffcd;
+	font-size:32px;
+}
+
+#logo .w{
+	font-size:12px;
+	display:inline-block;
+
+}
+
+#logo.c{
+	color:#abffcd;
+	letter-spacing:4px;
+	font-style:italic;
+}
+
+#brand-tagline{
+	font-size:14px;
+	display:inline-block;
+	color:#ABFFCD;
+	-webkit-transform: rotate(-20deg) translate(-30px, -4px);
+}
+
+
+/* navigation */
+
+#main-nav {
+
+}
+
+#main-nav ul{
+
+	
+}
+
+#main-nav ul li {
+
+display:inline-block;
+margin-right:10px;
+font-family:'Bangers';
+font-size:28px;
+
+#main-nav ul li:hover a:before {
+
+	font-family:'open sans';
+	display:inline-block;
+	margin-right:10px;
+	font-family:'Bangers';
+	font-size:28px;
+
+}
+
+	
+}
+
+#product-service {
+
+
+}
+
+#product-service ul{
+	width:100%;
+}
+
+#product-service ul li {
+	width:100%;
+	padding: 8px;
+	padding-left: 0px;
+	border-top:1px solid rgba(0,0,0,0.2);
+}
+
+#product-service ul li.category-headline{
+	font-weight:600;
+}
+
+#product-service ul li.category-headline .circle-icon{
+	background:#abffcd;
+	color:#252525;
+	padding:0px;
+	margin-right: 10px;
+
+	-webkit-border-radius:30px;
+	display:inline-block;
+}
+
+#product-service ul li:nth-child(odd) {
+	background:#000;
+}
+
+
+/* news */
+
+#news-articles{
+
+}
+
+#news-articles .row {
+	position:relative;
+	
+}
+

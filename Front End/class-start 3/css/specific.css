@@ -1,0 +1,366 @@
+/*
+Color 1: #ABFFCD (green)
+*/
+
+/* specific */
+
+
+/*header*/
+
+#main-header.fixed{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	background: rgba(0,0,0,0.7);
+	z-index: 5000;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	max-width: 100%;
+}
+
+#main-header.fixed h1 {
+	display:inline-block;
+	margin-top:30px;
+}
+
+#main-header.fixed h2{
+	-webkit-transform: rotate(-15deg) translate(-80px,0px);
+}
+
+#main-header.fixed nav{
+	text-align: right;
+	font-size: 15px;
+	width: 480px;
+	display: inline-block;
+}
+
+
+
+#logo{
+	margin-top:70px;
+	letter-spacing:-1px;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size:40px;
+	
+	-webkit-text-shadow: -3px -3px #252525;
+    -moz-text-shadow:-3px -3px #252525;
+    text-shadow:3px -3px #252525;
+}
+
+#logo .d{ z-index:2; position:relative;}
+
+#logo .w{
+	font-size:14px;
+	display:inline-block;
+	-webkit-transform:translate(0px,-7px);
+}
+
+#brand-tagline{ 
+	-webkit-transform:rotate(-15deg) translate(240px,50px);
+	display:inline-block;
+	font-size:16px;
+	margin-bottom:40px;
+	color:#ABFFCD;
+}
+
+#logo .heart{ 
+	z-index:1;
+    display:inline-block;
+    position:absolute;
+    margin-left:-50px;
+    margin-top:-20px;
+}
+/* https://css-tricks.com/examples/ShapesOfCSS/ */
+.heart {
+	display:inline-block;
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #ABFFCD;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+/* main navigation */
+#main-nav{ 
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2px;
+	text-align:center;
+}
+
+#main-nav ul{
+	margin:0px;
+	padding:0px;
+}
+
+#main-nav ul li{ 
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+#main-nav ul li a{ 
+	text-decoration:none;
+	color:#ABFFCD;
+	margin:0px 0px 0px 10px;
+	padding-top:5px;
+    text-shadow:1px 1px #000;
+}
+
+#main-nav ul li a:hover{
+	color:#FF00D6;
+	-webkit-transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-ms-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+	transition: color 0.5s linear;
+}
+
+/* products */
+
+#product-service ul{
+	width:100%;
+	margin:20px 0px 0px 0px;
+	padding:0px;
+}
+
+#product-service ul li{
+	width:90%;
+	margin:0px;
+	padding:10px;
+	list-style-type:none;
+	color:#fff;
+	border-top:1px solid rgba(255,255,255,0.5);
+	-webkit-transition: color 0.5s linear;
+	-webkit-transition: background-color 0.2s linear;
+}
+
+#product-service ul li.category:hover{
+	background-color:#ABFFCD;
+	color:#000;
+}
+
+#product-service ul li.category-headline{
+	padding:20px;
+	padding-left:0px;
+	color:#ABFFCD;
+}
+
+.circle-icon{
+	background: #ABFFCD;
+	border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	color: #000;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin-right: 10px;
+	text-align: center;
+	width: 1.6em; 
+}
+
+/* promo headline */
+#promo-area{
+}
+
+#promo-video-controls{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#promo-video-controls li{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+
+/* nfo form */
+
+#info-form{ }
+#contact-form{ }
+
+#info-form-user-feedback{
+	opacity:1;
+	display:none;
+	background: #E3FF00;
+	padding: 12px;
+	-webkit-border-radius: 10px;
+}
+#info-form-user-feedback.active{
+	display:block;
+	background:#FF00D6;
+	color:#fff;
+	border-radius: 10px;
+	padding:10px;
+	font-weight:600;
+	opacity:1;
+	-webkit-transition: opacity 0.5s linear;
+}
+
+#form-post-results{
+	display:none;
+}
+
+/* media embed */
+
+#media-embed{
+}
+
+#media-embed iframe{
+	width:100%;
+}
+
+/* cat table */
+
+#gallery-grid .table .row .cell{
+	width:24%;
+	position:relative;
+	cursor:pointer;
+	overflow:hidden;
+	padding:2px;
+}
+
+/* use of child ">" in css for scoping */
+
+#gallery-grid .table .row .cell div{
+	position:absolute;
+	bottom:0px;
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	text-align:center;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -webkit-transform: translate(0px, 60px);
+}
+
+#gallery-grid .table .row .cell:hover > div{
+    -webkit-transform: translate(0px, 0px);
+    -webkit-transition: -webkit-transform .2s ease-in;
+}
+
+#gallery-grid .table .row .cell > img{
+	-webkit-filter:grayscale(100%);
+    -webkit-transition: -webkit-filter .2s ease-in;
+}
+#gallery-grid .table .row .cell:hover > img{
+	-webkit-filter:grayscale(0);
+    -webkit-transition: -webkit-filter .2s ease-in;
+
+}
+
+/* news headlines */
+
+#news-articles .row{
+	position:relative;
+}
+
+#news-articles article {
+	margin-top:20px;
+	font-size:14px;
+	border-top:10px solid rgba(0,0,0,0.2);
+	height:100%;
+}
+
+#news-articles article:hover {
+	background:#292929;
+}
+
+#news-articles article header{
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	padding:5px;
+	padding-bottom:10px;
+}
+
+#news-articles article.col4 h1{
+	font-size:20px;
+}
+
+#news-articles article h2{
+	font-size:12px;
+}
+
+#news-articles article p.body-copy{
+	padding:5px;
+	padding-right:30px;
+}
+
+#news-articles article footer{
+	font-size:12px;
+	padding:5px;
+}
+
+
+/* call to actions */
+
+#sub-footer{
+	text-align:center;
+}
+
+
+/* footer */
+#page-footer{
+	font-size:14px;
+	position:relative;
+	vertical-align:top;
+}
+
+#page-footer nav{
+	display:inline-block;
+}
+
+#page-footer nav ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#page-footer .footer-right{
+	float:right;
+	vertical-align:top;
+	text-align:right;
+}

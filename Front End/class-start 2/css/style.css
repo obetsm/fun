@@ -1,0 +1,42 @@
+/* import the css we want to use */
+
+@import './global.css';
+@import './specific.css';
+@import './responsive.css';
+
+/* colors:
+	background:#282828;
+	text:#a0a8da;
+	headlines:#4d5aa9;
+	links:#79bdd4;
+	buttons:#f7f75c;
+	hover:#b2e556;
+
+	*/
+
+#main-nav{
+	width:100%;
+	float:left;
+	list-style:none;
+
+}
+
+#main-nav li{
+	float:left;
+	text-decoration: none;
+}
+
+#main-nav li a{
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-size:20px;
+		font-weight: bold;
+		color: #79bdd4;
+		border-right: 1px solid #ccc;
+}
+
+#about{
+
+	
+}

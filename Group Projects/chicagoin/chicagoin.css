@@ -1,0 +1,41 @@
+/* background */
+
+.background {
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* header */
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:25px;
+
+	}
+
+li
+	{
+	display:inline;
+	float:left;
+	color:#fff;
+	}
+
+a
+	{
+	display:block;
+	width:90px;
+
+	}
+
+/* calendar */
+
+.boxed {
+	background-color: #FFF;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 30px;
+	right:100px;
+}
+ 
